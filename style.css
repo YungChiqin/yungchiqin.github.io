@@ -57,16 +57,13 @@ body {
   
   button {
     font-family: 'Bebas Neue', cursive;
-    font-size: 60%;
+    font-size: 24px; /* Adjusted font size */
     display: block;
-    padding: 25px;
-    margin: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px 40px; /* Adjusted padding for better symmetry */
+    margin: 100px auto; /* Centering the button horizontally */
     color: #ffffff;
     background-color: #e32a30;
     text-align: center;
     border-radius: 15px;
-    letter-spacing: 5px;
-  
+    letter-spacing: 2px; /* Slightly reduced letter spacing for readability */
   }
