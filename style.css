@@ -1,69 +1,69 @@
 body {
-    background-color: #121212;
-    color: #ffffff;
-    font-family: 'Playfair Display', serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
+    background: #000;
+    color: #fff;
+    padding: 25px;
+    font-family: sans-serif;
+  }
+  
+  h1 {
     text-align: center;
-    padding: 50px 0;
-    background-color: #e32a30;
-}
-
-h1 {
-    font-size: 4rem;
+    color: #fff;
+    font-size: 12vw;
+    padding: 0px;
+    margin-top: 100px;
+    height: 425px;
     font-family: 'Yellowtail', cursive;
-    letter-spacing: 8px;
-}
-
-.intro {
+    letter-spacing: 5px;
+  }
+  
+  p {
     text-align: center;
-    padding: 30px 0;
-}
-
-.album {
+    font-family:'Playfair Display', serif;
+    font-size: 3.5vw;
+    color: #e32a30;
+  }
+  
+  h2 {
     text-align: center;
-    margin: 50px 0;
-}
-
-.img1 {
-    width: 80%;
-    max-width: 500px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-.social-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 50px;
-}
-
-.social-btn {
-    padding: 15px 30px;
-    font-size: 1.2rem;
+    font-size: 60px;
+    
+  }
+  
+  .img1 {
+    display: block;
+    width: 65%;
+    height: 30%;
+    padding: auto;
+    margin: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+  
+  .img2 {
+    display: block;
+    width: 10%;
+    height: 30%;
+    padding: auto;
+    margin: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+  
+  album {
+    
+  }
+  
+  button {
     font-family: 'Bebas Neue', cursive;
-    background-color: #e32a30;
+    font-size: 24px; /* Adjusted font size */
+    display: block;
+    padding: 20px 40px; /* Adjusted padding for better symmetry */
+    margin: 100px auto; /* Centering the button horizontally */
     color: #ffffff;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.social-btn:hover {
-    background-color: #c92428;
-}
-
-footer {
+    background-color: #e32a30;
     text-align: center;
-    padding: 30px 0;
-}
-
-.img2 {
-    width: 100%;
-    max-width: 800px;
-}
+    border-radius: 15px;
+    letter-spacing: 2px; /* Slightly reduced letter spacing for readability */
+  }
