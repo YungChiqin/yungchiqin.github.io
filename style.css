@@ -21,7 +21,7 @@ body {
     font-family:'Playfair Display', serif;
     font-size: 3.5vw;
     margin-top: 0px;
-    color: #ee8822;
+    color: #c88141;
   }
   
   h2 {
@@ -63,7 +63,7 @@ body {
     padding: 20px 40px; /* Adjusted padding for better symmetry */
     margin: 100px auto; /* Centering the button horizontally */
     color: #ffffff;
-    background-color: #ee8822;
+    background-color: #c88141;
     text-align: center;
     border-radius: 15px;
     letter-spacing: 2px; /* Slightly reduced letter spacing for readability */
